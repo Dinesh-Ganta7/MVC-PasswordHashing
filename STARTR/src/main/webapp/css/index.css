@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.bg-container{
+    background-color: blueviolet;
+    height: 100vh;
+    
+}
+.marquee-tag{
+    font-family: "Arial";
+    font-size: 65px;
+    font-weight: 550;
+    color:silver;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gainsboro;
+    align-items: center;
+}
+
+.logo-img{
+    width: 75px;
+    height:75%;
+    border-radius: 70%;
+    padding: 5px;
+}
+.header-links-bg{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-link{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 25px;
+    margin-right: 30%;
+}
